@@ -16,12 +16,16 @@
 <section class="hero">
     <div class="card">
         <div class="product-image-block">
-            <img src="./assets/images/main-image.png" alt="">
-            <div class="preview selected">
-                <img src="./assets/images/image-1.png" alt="">
+            <div class="main-image-wrapper">
+            <img class="main-image" src="./assets/images/main-image.png" alt="">
             </div>
-            <div class="preview">
-                <img src="./assets/images/image-2.png" alt="">
+                <div class="previews-wrapper"    >
+                <div class="preview selected">
+                    <img src="./assets/images/image-1.png" alt="">
+                </div>
+                <div class="preview">
+                    <img src="./assets/images/image-2.png" alt="">
+                </div>
             </div>
         </div>
 
@@ -33,7 +37,7 @@
                 elegant and modern, created out of a deep respect for Royal British history and traditions</p>
             <div class="color-options">
                 <h2 class="title">Color options</h2>
-                <ul>
+                <ul class="color-wrapper">
                     <li class="color-item selected">
                         <div class="circle blue"></div>
                     </li>
@@ -51,7 +55,7 @@
                     </li>
                 </ul>
             </div>
-            <div>
+            <div class="wrapper">
                 <div>
                     <h2 class="title">Quantity</h2>
                     <select id="quantity" class="quantity" name="quantity">
@@ -60,7 +64,7 @@
                         <option value="3">3</option>
                     </select>
                 </div>
-                <div >
+                <div>
                     <h2 class="title">Price</h2>
                     <span class="price">eur 39,00</span>
                 </div>
